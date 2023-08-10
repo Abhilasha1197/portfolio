@@ -3,6 +3,7 @@ import React from "react";
 import avatar from "../assets/avatar.jpeg";
 import Social from "../helpers/Social";
 import { FaArrowDown } from "react-icons/fa";
+import resume from "../assets/Abhilasha-Resume.pdf";
 
 const Hero = () => {
 	window.addEventListener("scroll", function () {
@@ -44,7 +45,7 @@ const Hero = () => {
 					className="w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600 rounded-xl pt-5"
 				/>
 				<a
-					href="/"
+					href={resume}
 					download={true}
 					className="flex items-center justify-center mt-10 bg-gradient-to-r from-rose-600 to-teal-500 text-white py-2 rounded-lg"
 				>
